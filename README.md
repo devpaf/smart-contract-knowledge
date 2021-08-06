@@ -5,3 +5,6 @@
     1. virtual: allow inheriting contract to override
     2. override: mark a function as overriding some parent function
     3. override is required even if the function is implementing an interface
+- [Storage](https://medium.com/coinmonks/how-to-read-private-variables-in-contract-storage-with-truffle-ethernaut-lvl-8-walkthrough-b2382741da9f)
+    1. Variables are stored in 32-byte slots, in sequence of their declarations
+    2. Private variables are still accessible with `web3.eth.getStorageAt(contractAddress, slotNumber)`
