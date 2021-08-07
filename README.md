@@ -11,3 +11,5 @@
 - [view vs pure functions](https://docs.soliditylang.org/en/develop/contracts.html#view-functions)
     1. view does not modify states
     2. pure does not modify states AND does not read states
+- Casting a Bytes32 to Bytes16
+    1. Just take 16 bytes from left to right (from most significant bit)
