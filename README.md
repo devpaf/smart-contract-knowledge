@@ -8,3 +8,6 @@
 - [Storage](https://medium.com/coinmonks/how-to-read-private-variables-in-contract-storage-with-truffle-ethernaut-lvl-8-walkthrough-b2382741da9f)
     1. Variables are stored in 32-byte slots, in sequence of their declarations
     2. Private variables are still accessible with `web3.eth.getStorageAt(contractAddress, slotNumber)`
+- [view vs pure functions](https://docs.soliditylang.org/en/develop/contracts.html#view-functions)
+    1. view does not modify states
+    2. pure does not modify states AND does not read states
