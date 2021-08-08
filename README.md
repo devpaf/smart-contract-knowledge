@@ -12,4 +12,5 @@
     1. view does not modify states
     2. pure does not modify states AND does not read states
 - Casting a Bytes32 to Bytes16
-    1. Just take 16 bytes from left to right (from most significant bit)
+    1. Just take 16 bytes from left to right (from most significant bit) <WRONG>
+    2. Just take 16 bytes from right to left (from least significant bit)(https://medium.com/coinmonks/ethernaut-lvl-13-gatekeeper-1-walkthrough-how-to-calculate-smart-contract-gas-consumption-and-eb4b042d3009)
