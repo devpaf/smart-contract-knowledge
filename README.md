@@ -14,3 +14,7 @@
 - Casting a Bytes32 to Bytes16
     1. Just take 16 bytes from left to right (from most significant bit) <WRONG>
     2. Just take 16 bytes from right to left (from least significant bit)(https://medium.com/coinmonks/ethernaut-lvl-13-gatekeeper-1-walkthrough-how-to-calculate-smart-contract-gas-consumption-and-eb4b042d3009)
+
+- Revert without reason
+    1. Has the request reach the destination address? Check some view functions, read some storage data.
+    2. If reachable, then must be function param / calldata error. Can either read through code line by line or test other param combination.
